@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            height: 1000px;
+            width: 1200px;
+        }
+
+        .p1 {
+            display: flex;
+            position: relative;
+            height: 500px;
+            width: 1000px;
+            text-align: center;
+            border: 2px solid black;
+            left: 200px;
+        }
+
+        .t {
+            position: relative;
+            top: 100px;
+            right: 700px;
+            height: 50px;
+            width: 300px;
+        }
+
+        .p {
+            position: relative;
+            top: 200px;
+            right: 700px;
+            height: 200px;
+            width: 400px;
+        }
+        .p2{
+            display: flex;
+            position: relative;
+            height: 500px;
+            width: 1000px;
+            text-align: center;
+            border: 2px solid black;
+            left: 200px;
+        }
+        .a{
+           position: relative;
+           top: 120px;
+           right: 650px;
+        }
+        .b{
+            position: relative;
+            top:-35px;
+            right: 350px;
+        }
+        .c{
+            position: relative;
+            top:-190px;
+            right: 40px;
+        }
+        .d{
+            position: relative;
+            top: -150px;
+            right: 650px;
+        }
+        .e{
+            position: relative;
+            top:-305px;
+            right: 350px ;
+        }
+        .g{
+            position: relative;
+            top: -460px;
+            right: 40px;
+        }
+        .p3{
+            display: flex;
+            position: relative;
+            height: 500px;
+            width: 1000px;
+            text-align: center;
+            border: 2px solid black;
+            left: 200px;
+        }
+        .form{
+            position: relative;
+            top:150px;
+            right: 200px;
+            width: 1000px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="p1">
+            <img src="./Rectangle 4.jpg" alt="" style="height: 500px; ">
+            <img src="./Clean Beats.jpg" alt="" style="height: 50px;">
+            <img src="./bar 1.jpg" alt="" style="height: 30px; position: relative; left:500px; top: 20px;">
+            <img src="./headphone 1.jpg" alt="" style="position :relative; left: 200px; height:350px; top: 150px;">
+            <h1 class="t">Highrst Quality HeadPhones</h1><br><br><br>
+            <img src="./Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type. (1).jpg"
+                alt="" style="position: relative; top: 250px; right: 850px; height: 100px; width: 300px;"><br>
+            <h3 style="position: relative; top:350px; right: 1150px; width: 100px;">$500|BUY NOW</h3>
+        </div>
+        <div class="p2">
+            <h3 style="position: relative; left: 100px;">Latest Features</h3><br>
+            <img src="./Design and built with latest trending future technology.jpg" alt="" style="position :relative; height: 50px; width: 300px; top: 80px; right: 25px;">
+            <div class="b" style=" height: 20px; position :relative; top: 10px; left: 350px; width: 1000px; ">See All Features</div>
+           <div class="f">
+                <div class="a"><h3>Heading</h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, incidunt. Suscipit magni error voluptas necessitatibus sint. <h5>Learn More-></h5></div>
+                 <div class="b"> <h3>Heading</h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, incidunt. Suscipit magni error voluptas necessitatibus sint. <h5>Learn more-></h5></div> 
+                <div class="c"><h3>Heading</h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, incidunt. Suscipit magni error voluptas necessitatibus sint . <h5>Learn more-></h5></div>
+                <div class="d"><h3>Heading</h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, incidunt. Suscipit magni error voluptas necessitatibus sint . <h5>Learn More-></h5></div>
+                <div class="e"><h3>Heading</h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, incidunt. Suscipit magni error voluptas necessitatibus sint . <h5>Learn More-></h5></div>
+                <div class="g"><h3>Heading</h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, incidunt. Suscipit magni error voluptas necessitatibus sint . <h5>Learn More-></h5></div> 
+           </div>
+        </div>
+        <div class="p3">
+               <h3 style="position: relative; left: 45%;"><u>Contact Us</u></h3><br><br>
+               <h1 style="position: relative; left: 25%; top: 30px;"><u>Any Questions?Send Us Message</u></h1>
+               <form action="" class="form">
+                    Enter name: <input type="text"> 
+                    Enter E-mail: <input type="text"><br><br>
+                    <div style="position: relative; left: -150px;">subject <input type="text" width="5px"><br><br></div>
+                    <div style="position: relative; left: -100px;">How Can i Help You? <input type="text"></div><br><br>
+                    <button style="height: 40px; width: 100px;">SUBMIT</button>
+               </form>
+               <img src="./Clean Beats.jpg" alt="" style="position: relative; height: 50px; width: 100px; top:350px; right: 800px;"><br>
+               <img src="./Clearbeats, Inc.ABC Apt.Sandy, UT 84091-15471-888-659-8244email@domainname.com.jpg" alt="">
+        </div>
+    </div>
+</body>
+
+</html>
